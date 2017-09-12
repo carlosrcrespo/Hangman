@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+	   
+	<!-- Bootstrap goes here -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+<div class="panel panel-default" style="max-width:600px;margin-left:auto; margin-right:auto; margin-top:100px;">
+  <div class="panel-body text-center">
+
+
+    <h1> Ready to play Hangman?</h1>
+    <h2>Category: TV Shows</h2>
+    <hr>
+      <div class="panel-body text-left">
+
+
+
+<Container=left justified>
+<p>Guesses to go: <span id="guesses-left"></span></p>
+<p>Wrong Guesses: <span id="wrong-guesses"></span></p>
+<p>Player Wins: <span id="win-counter"></span></p>
+<p>Player Losses: <span id="loss-counter"></span></p>
+<h3 id="word-blank"></h3>
+<hr>
+
+
+  </div>
+</div>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
